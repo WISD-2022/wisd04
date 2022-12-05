@@ -26,3 +26,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/aa/a1', function (){
+    return view('aa.a1');
+});
